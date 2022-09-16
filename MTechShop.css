@@ -1,0 +1,351 @@
+/* CSS Popup Luar Biasa */
+.mfp-bg {
+  atas: 0;
+  kiri: 0;
+  lebar: 100%;
+  tinggi: 100%;
+  indeks-z: 1042;
+  melimpah: tersembunyi;
+  posisi: tetap;
+  latar belakang: #0b0b0b;
+  opasitas: 0,8; }
+
+.mfp-bungkus {
+  atas: 0;
+  kiri: 0;
+  lebar: 100%;
+  tinggi: 100%;
+  indeks-z: 1043;
+  posisi: tetap;
+  garis besar: tidak ada !penting;
+  -webkit-backface-visibility: tersembunyi; }
+
+.mfp-wadah {
+  perataan teks: tengah;
+  posisi: mutlak;
+  lebar: 100%;
+  tinggi: 100%;
+  kiri: 0;
+  atas: 0;
+  bantalan: 0 8px;
+  ukuran kotak: kotak perbatasan; }
+
+.mfp-container:sebelum {
+  isi: '';
+  tampilan: blok sebaris;
+  tinggi: 100%;
+  vertikal-align: tengah; }
+
+.mfp-align-top .mfp-container:before {
+  tampilan: tidak ada; }
+
+.mfp-konten {
+  posisi: relatif;
+  tampilan: blok sebaris;
+  vertikal-align: tengah;
+  margin: 0 otomatis;
+  perataan teks: kiri;
+  indeks-z: 1045; }
+
+.mfp-inline-holder .mfp-content,
+.mfp-ajax-holder .mfp-content {
+  lebar: 100%;
+  kursor: otomatis; }
+
+.mfp-ajax-cur {
+  kursor: kemajuan; }
+
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  kursor: -moz-zoom-out;
+  kursor: -webkit-zoom-out;
+  kursor: memperkecil; }
+
+.mfp-zoom {
+  kursor: penunjuk;
+  kursor: -webkit-zoom-in;
+  kursor: -moz-zoom-in;
+  kursor: memperbesar; }
+
+.mfp-auto-kursor .mfp-content {
+  kursor: otomatis; }
+
+.mfp-tutup,
+.mfp-panah,
+.mfp-preloader,
+.mfp-counter {
+  -webkit-pengguna-pilih: tidak ada;
+  -moz-pengguna-pilih: tidak ada;
+  pilihan pengguna: tidak ada; }
+
+.mfp-loading.mfp-figure {
+  tampilan: tidak ada; }
+
+.mfp-sembunyikan {
+  tampilan: tidak ada !penting; }
+
+.mfp-preloader {
+  warna: #CCC;
+  posisi: mutlak;
+  atas: 50%;
+  lebar: otomatis;
+  perataan teks: tengah;
+  margin-atas: -0.8em;
+  kiri: 8 piksel;
+  kanan: 8px;
+  indeks-z: 1044; }
+  .mfp-preloader a {
+    warna: #CCC; }
+    .mfp-preloader a:hover {
+      warna: #FFF; }
+
+.mfp-s-ready .mfp-preloader {
+  tampilan: tidak ada; }
+
+.mfp-s-error .mfp-content {
+  tampilan: tidak ada; }
+
+button.mfp-tutup,
+button.mfp-panah {
+  melimpah: terlihat;
+  kursor: penunjuk;
+  latar belakang: transparan;
+  batas: 0;
+  -penampilan webkit: tidak ada;
+  tampilan: blok;
+  garis besar: tidak ada;
+  bantalan: 0;
+  indeks-z: 1046;
+  bayangan kotak: tidak ada;
+  sentuhan-aksi: manipulasi; }
+
+tombol::-moz-fokus-dalam {
+  bantalan: 0;
+  batas: 0; }
+
+.mfp-tutup {
+  lebar: 44px;
+  tinggi: 44px;
+  tinggi garis: 44px;
+  posisi: mutlak;
+  kanan: 0;
+  atas: 0;
+  dekorasi teks: tidak ada;
+  perataan teks: tengah;
+  opasitas: 0,65;
+  bantalan: 0 0 18px 10px;
+  warna: #FFF;
+  gaya font: normal;
+  ukuran font: 28px;
+  font-family: Arial, Baskerville, monospace; }
+  .mfp-close:arahkan kursor,
+  .mfp-close:fokus {
+    opasitas: 1; }
+  .mfp-close:aktif {
+    atas: 1 piksel; }
+
+.mfp-close-btn-in .mfp-close {
+  warna: #333; }
+
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+  warna: #FFF;
+  kanan: -6px;
+  perataan teks: kanan;
+  padding-kanan: 6px;
+  lebar: 100%; }
+
+.mfp-counter {
+  posisi: mutlak;
+  atas: 0;
+  kanan: 0;
+  warna: #CCC;
+  ukuran font: 12px;
+  tinggi garis: 18px;
+  spasi putih: nowrap; }
+
+.mfp-panah {
+  posisi: mutlak;
+  opasitas: 0,65;
+  margin: 0;
+  atas: 50%;
+  margin-atas: -55px;
+  bantalan: 0;
+  lebar: 90 piksel;
+  tinggi: 110 piksel;
+  -webkit-tap-highlight-color: transparan; }
+  .mfp-panah:aktif {
+    margin-atas: -54px; }
+  .mfp-panah:arahkan kursor,
+  .mfp-panah:fokus {
+    opasitas: 1; }
+  .mfp-panah:sebelumnya,
+  .mfp-panah:setelah {
+    isi: '';
+    tampilan: blok;
+    lebar: 0;
+    tinggi: 0;
+    posisi: mutlak;
+    kiri: 0;
+    atas: 0;
+    margin-atas: 35px;
+    margin-kiri: 35px;
+    perbatasan: inset sedang transparan; }
+  .mfp-panah:setelah {
+    batas-atas-lebar: 13px;
+    border-bottom-width: 13px;
+    atas: 8 piksel; }
+  .mfp-panah:sebelum {
+    batas-atas-lebar: 21px;
+    batas-bawah-lebar: 21px;
+    opasitas: 0,7; }
+
+.mfp-panah-kiri {
+  kiri: 0; }
+  .mfp-panah-kiri:setelah {
+    border-right: 17px solid #FFF;
+    margin-kiri: 31px; }
+  .mfp-panah-kiri:sebelum {
+    margin-kiri: 25px;
+    perbatasan-kanan: 27px solid #3F3F3F; }
+
+.mfp-panah-kanan {
+  kanan: 0; }
+  .mfp-panah-kanan:setelah {
+    border-left: 17px solid #FFF;
+    margin-kiri: 39px; }
+  .mfp-panah-kanan:sebelum {
+    batas kiri: 27px solid #3F3F3F; }
+
+.mfp-iframe-holder {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .mfp-iframe-holder .mfp-content {
+    tinggi garis: 0;
+    lebar: 100%;
+    lebar maks: 900 piksel; }
+  .mfp-iframe-holder .mfp-close {
+    atas: -40px; }
+
+.mfp-iframe-scaler {
+  lebar: 100%;
+  tinggi: 0;
+  melimpah: tersembunyi;
+  padding-top: 56,25%; }
+  .mfp-iframe-scaler iframe {
+    posisi: mutlak;
+    tampilan: blok;
+    atas: 0;
+    kiri: 0;
+    lebar: 100%;
+    tinggi: 100%;
+    bayangan kotak: 0 0 8px rgba(0, 0, 0, 0.6);
+    latar belakang: #000; }
+
+/* Gambar utama dalam popup */
+img.mfp-img {
+  lebar: otomatis;
+  lebar maksimum: 100%;
+  tinggi: otomatis;
+  tampilan: blok;
+  tinggi garis: 0;
+  ukuran kotak: kotak perbatasan;
+  bantalan: 40px 0 40px;
+  margin: 0 otomatis; }
+
+/* Bayangan di belakang gambar */
+.mfp-angka {
+  tinggi garis: 0; }
+  .mfp-figure:setelah {
+    isi: '';
+    posisi: mutlak;
+    kiri: 0;
+    atas: 40px;
+    bawah: 40px;
+    tampilan: blok;
+    kanan: 0;
+    lebar: otomatis;
+    tinggi: otomatis;
+    indeks-z: -1;
+    bayangan kotak: 0 0 8px rgba(0, 0, 0, 0.6);
+    latar belakang: #444; }
+  .mfp-figure kecil {
+    warna: #BDBDBD;
+    tampilan: blok;
+    ukuran font: 12px;
+    tinggi garis: 14px; }
+  .mfp-angka angka {
+    margin: 0; }
+
+.mfp-bottom-bar {
+  margin-atas: -36px;
+  posisi: mutlak;
+  atas: 100%;
+  kiri: 0;
+  lebar: 100%;
+  kursor: otomatis; }
+
+.mfp-title {
+  perataan teks: kiri;
+  tinggi garis: 18px;
+  warna: #F3F3F3;
+  kata-wrap: istirahat-kata;
+  padding-kanan: 36px; }
+
+.mfp-image-holder .mfp-content {
+  lebar maksimum: 100%; }
+
+.mfp-gallery .mfp-image-holder .mfp-figure {
+  kursor: penunjuk; }
+
+@media screen dan (max-width: 800px) dan (orientasi: landscape), layar dan (max-height: 300px) {
+  /**
+       * Hapus semua bantalan di sekitar gambar di layar kecil
+       */
+  .mfp-img-mobile .mfp-image-holder {
+    padding-kiri: 0;
+    bantalan-kanan: 0; }
+  .mfp-img-mobile img.mfp-img {
+    bantalan: 0; }
+  .mfp-img-mobile .mfp-figure:setelah {
+    atas: 0;
+    bawah: 0; }
+  .mfp-img-mobile .mfp-figure kecil {
+    tampilan: sebaris;
+    margin-kiri: 5px; }
+  .mfp-img-mobile .mfp-bottom-bar {
+    latar belakang: rgba(0, 0, 0, 0.6);
+    bawah: 0;
+    margin: 0;
+    atas: otomatis;
+    bantalan: 3px 5px;
+    posisi: tetap;
+    ukuran kotak: kotak perbatasan; }
+    .mfp-img-mobile .mfp-bottom-bar:kosong {
+      bantalan: 0; }
+  .mfp-img-mobile .mfp-counter {
+    kanan: 5 piksel;
+    atas: 3 piksel; }
+  .mfp-img-mobile .mfp-close {
+    atas: 0;
+    kanan: 0;
+    lebar: 35px;
+    tinggi: 35px;
+    tinggi garis: 35px;
+    latar belakang: rgba(0, 0, 0, 0.6);
+    posisi: tetap;
+    perataan teks: tengah;
+    bantalan: 0; } }
+
+@media semua dan (lebar maks: 900px) {
+  .mfp-panah {
+    -webkit-transform: skala(0.75);
+    mengubah: skala (0,75); }
+  .mfp-panah-kiri {
+    -webkit-transformasi-asal: 0;
+    transformasi-asal: 0; }
+  .mfp-panah-kanan {
+    -webkit-transform-origin: 100%;
+    transformasi-asal: 100%; }
+  .mfp-wadah {
+    padding-kiri: 6px;
+    padding-kanan: 6px; } }
